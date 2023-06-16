@@ -7,6 +7,10 @@
 
 DEVICE_PATH := device/oplus/ossi
 
+# These two are for MTK Chipsets only
+BOARD_USES_MTK_HARDWARE := true
+BOARD_HAS_MTK_HARDWARE := true
+
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
